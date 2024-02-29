@@ -1,8 +1,3 @@
-Binary trees
-Task 0
-binary_tree_print.c
-Details
-Activity
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
