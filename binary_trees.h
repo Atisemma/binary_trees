@@ -42,6 +42,17 @@ typedef struct levelorder_queue_s
 /* Printing helper function */
 void binary_tree_print(const binary_tree_t *);
 
+/**
+ * struct node_s - singly linked list
+ * @node: const binary tree node
+ * @next: points to the next node
+ */
+typedef struct node_s
+{
+        const binary_tree_t *node;
+        struct node_s *next;
+} ll;
+
 /* Task function prototypes */
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);
