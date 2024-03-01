@@ -21,7 +21,7 @@ void bal(avl_t **tree)
 		*tree = binary_tree_rotate_left((binary_tree_t *)*tree);
 }
 /**
- * succesor - Function to let son to i mean
+ * successor - Function to let son to i mean
  * the min node in the right subtree
  * @node: tree to check
  * Return: the min value of this tree
